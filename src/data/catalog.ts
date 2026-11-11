@@ -6,7 +6,7 @@ import { extras } from "./shops";
 import { sources as s } from "./sources";
 
 /**
- * Scalpty catalog, reviewed 2026-11-10.
+ * Skeptic catalog, reviewed 2026-11-10.
  * Summaries of public sources. Not dosing instructions and not medical advice.
  * Registration, basket coverage, and prices change — verify with the Ministry
  * of Health drug registry, a pharmacist, and the health fund.
