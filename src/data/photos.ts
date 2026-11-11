@@ -121,4 +121,122 @@ export const photos: Record<string, ProductPhoto[]> = {
       credit: family,
     },
   ],
+  "clinic-ginzburg": [
+    {
+      src: "/clinics/ginzburg.jpg",
+      alt: "דיוקן של ד״ר אלכס גינזבורג, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד גינזבורג מדיקל, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-dng": [
+    {
+      src: "/clinics/dng.jpg",
+      alt: "דיוקן של ד״ר קרולינה נלינגר, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד DNG מדיקל, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-trichogenics": [
+    {
+      src: "/clinics/trichogenics.jpg",
+      alt: "דיוקן של ד״ר אסי פרץ וד״ר אריק פרץ, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד Trichogenics, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-dr-hair": [
+    {
+      src: "/clinics/dr-hair.jpg",
+      alt: "דיוקן של ד״ר ג׳רמי נידם, כפי שפורסם באתר Dr Hair Clinic",
+      credit: "ד״ר ג׳רמי נידם. דיוקן מעמוד הרופא באתר Dr Hair Clinic, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+      frame: "center",
+    },
+    {
+      src: "/clinics/dr-hair-timsit.jpg",
+      alt: "דיוקן של ד״ר נתנאל טימסטיט, כפי שפורסם באתר Dr Hair Clinic",
+      credit: "ד״ר נתנאל טימסטיט. דיוקן מעמוד הרופא באתר Dr Hair Clinic, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+      frame: "center",
+    },
+  ],
+  "clinic-shaltiel": [
+    {
+      src: "/clinics/shaltiel.jpg",
+      alt: "דיוקן של ד״ר שלום שאלתיאל, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד הבית של ד״ר שאלתיאל, 11 בנובמבר 2026. הקובץ באתר קטן. לא תוצאה ולא לפני־ואחרי.",
+      frame: "contain",
+    },
+  ],
+  "clinic-rimi": [
+    {
+      src: "/clinics/rimi.jpg",
+      alt: "דיוקן של ד״ר רימי עאסי, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד ד״ר רימי עאסי, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+      frame: "center",
+    },
+  ],
+  "clinic-buchbut": [
+    {
+      src: "/clinics/buchbut.jpg",
+      alt: "דיוקן של ד״ר דנה בוכבוט, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד ד״ר דנה בוכבוט, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+      frame: "center",
+    },
+  ],
+  "clinic-beyond": [
+    {
+      src: "/clinics/beyond.jpg",
+      alt: "ד״ר מוחמד עבדול האדי בקליניקה של Beyond Aesthetics",
+      credit: "ד״ר מוחמד עבדול האדי. דיוקן מעמוד Beyond Aesthetics, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+    {
+      src: "/clinics/beyond-zarian.jpg",
+      alt: "דיוקן של ד״ר זריאן, כפי שפורסם באתר Beyond Aesthetics",
+      credit: "ד״ר זריאן. דיוקן מעמוד Beyond Aesthetics, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+      frame: "center",
+    },
+  ],
+  "clinic-renew": [
+    {
+      src: "/clinics/renew.jpg",
+      alt: "דיוקן של ד״ר ערוה אבו ליל, כפי שפורסם באתר RENEW",
+      credit: "דיוקן מעמוד RENEW, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-medhair": [
+    {
+      src: "/clinics/medhair.jpg",
+      alt: "דיוקן של ד״ר ודאט טוסון, המנהל הרפואי של MedHair",
+      credit: "דיוקן מעמוד MedHair, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-hairmedico": [
+    {
+      src: "/clinics/hairmedico.jpg",
+      alt: "דיוקן של ד״ר ארסלאן מוסבה, כפי שפורסם באתר Hairmedico",
+      credit: "דיוקן מעמוד Hairmedico, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
+  "clinic-ahd": [
+    {
+      src: "/clinics/ahd.jpg",
+      alt: "דיוקן של ד״ר האקאן דוגאנאי, כפי שפורסם באתר המרפאה",
+      credit: "דיוקן מעמוד AHD, 11 בנובמבר 2026. הקובץ באתר קטן. לא תוצאה ולא לפני־ואחרי.",
+      frame: "contain",
+    },
+  ],
+  "clinic-fks": [
+    {
+      src: "/clinics/fks.jpg",
+      alt: "דיוקן של ד״ר קודוסי אונאי, המנהל הרפואי של FKS",
+      credit: "ד״ר קודוסי אונאי, המנהל הרפואי. מעמוד הרופאים של FKS, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+    {
+      src: "/clinics/fks-soylu.jpg",
+      alt: "דיוקן של ד״ר פטמה סדה סוילו, מנתחת שיער ב־FKS",
+      credit: "ד״ר פטמה סדה סוילו. מעמוד הרופאים של FKS, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+    {
+      src: "/clinics/fks-cakmakci.jpg",
+      alt: "דיוקן של ד״ר ברק צ׳קמקצ׳י, מנתחת שיער ב־FKS",
+      credit: "ד״ר ברק צ׳קמקצ׳י. מעמוד הרופאים של FKS, 11 בנובמבר 2026. לא תוצאה ולא לפני־ואחרי.",
+    },
+  ],
 };

@@ -63,6 +63,8 @@ export type ProductPhoto = {
   src: string;
   alt: string;
   credit: string;
+  /** contain keeps a small or wide photo whole. center is for a tight headshot. */
+  frame?: "contain" | "center";
 };
 
 export type ProductExtra = {
