@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type CSSProperties, type ReactNode } from "react";
+import { asset } from "./asset";
 import { AccountBar, AuthGate } from "./AuthGate";
 import { clearSession, loadSession, saveSession, type Session } from "./auth";
 import { addNote, loadNotes, notesKeyFor, type Note } from "./community";
@@ -314,7 +315,10 @@ function Home({
 
   return (
     <>
-      <section className="hero">
+      <section
+        className="hero"
+        style={{ "--hero-photo": `url("${asset("/atmosphere/hair.jpg")}")` } as CSSProperties}
+      >
         <div className="hero-bar">
           <AccountBar session={session} onSignIn={onSignIn} onSignOut={onSignOut} />
         </div>
@@ -370,7 +374,7 @@ function Home({
       </section>
 
       <section className="story">
-        <img src="/atmosphere/care.jpg" alt="" />
+        <img src={asset("/atmosphere/care.jpg")} alt="" />
         <div>
           <p className="forum-kicker">על המדף</p>
           <h2>לא כל בקבוק הוא טיפול</h2>
@@ -386,7 +390,7 @@ function Home({
       </section>
 
       <section className="story flip">
-        <img src="/atmosphere/consult.jpg" alt="" />
+        <img src={asset("/atmosphere/consult.jpg")} alt="" />
         <div>
           <p className="forum-kicker">במרפאה</p>
           <h2>שואלים מי עושה את העבודה</h2>
@@ -428,7 +432,7 @@ function Home({
       </section>
 
       <figure className="band">
-        <img src="/atmosphere/capsules.jpg" alt="" />
+        <img src={asset("/atmosphere/capsules.jpg")} alt="" />
         <figcaption>תמונת אווירה של כדורים. זו לא אריזה מהקטלוג, ולא תרופה מסוימת.</figcaption>
       </figure>
 

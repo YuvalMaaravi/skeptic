@@ -560,7 +560,7 @@ h2 {
   color: #fff;
   background:
     linear-gradient(180deg, rgb(6 36 32 / 62%) 0%, rgb(6 36 32 / 22%) 16%, rgb(6 36 32 / 8%) 34%, rgb(8 28 26 / 80%) 78%),
-    url("/atmosphere/hair.jpg") center 18% / cover no-repeat;
+    var(--hero-photo) center 18% / cover no-repeat;
 }
 
 .hero-bar {

@@ -1,9 +1,10 @@
+import { asset } from "../asset";
 import type { ProductPhoto } from "./types";
 
 const family = "צילום האריזה מעמוד פמילי פארם, 10 בנובמבר 2026.";
 const eco = "צילום האריזה מעמוד אקופארם.";
 
-export const photos: Record<string, ProductPhoto[]> = {
+const shots: Record<string, ProductPhoto[]> = {
   "topical-minoxidil": [
     {
       src: "/products/minoxi-5.jpg",
@@ -240,3 +241,7 @@ export const photos: Record<string, ProductPhoto[]> = {
     },
   ],
 };
+
+export const photos: Record<string, ProductPhoto[]> = Object.fromEntries(
+  Object.entries(shots).map(([id, list]) => [id, list.map((photo) => ({ ...photo, src: asset(photo.src) }))]),
+);
